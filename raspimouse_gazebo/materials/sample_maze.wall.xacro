@@ -1,9 +1,10 @@
 <?xml version="1.0" ?>
 <sdf version="1.4" xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:macro name="wall" params="*pose">
-    <model name='wall'>
+  <xacro:macro name="wall" params="pose name">
+    <model name="${name}">
       <!-- <pose>&#45;0.09 0 0.5 0 0 1.57</pose> -->
-      <xacro:insert_block name="pose" />
+      <!-- <xacro:insert_block name="pose" /> -->
+      <pose>${pose}</pose>
       <link name='link'>
         <inertial>
           <mass>10</mass>
