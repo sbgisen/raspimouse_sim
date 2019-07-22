@@ -38,31 +38,31 @@
 
   <!-- horizontal -->
   <xacro:wall pose="-0.090 0.006 0.025 0 0 1.57" name="wall1"/>
-  <xacro:wall pose="-0.090 -0.174 0.025 0 0 1.57" name="wall1"/>
-  <xacro:wall pose="-0.090 -0.354 0.025 0 0 1.57" name="wall1"/>
+  <xacro:wall pose="-0.090 -0.174 0.025 0 0 1.57" name="wall2"/>
+  <xacro:wall pose="-0.090 -0.354 0.025 0 0 1.57" name="wall3"/>
 
   <!-- vertical -->
-  <xacro:wall pose="0.006 0.090 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.186 0.090 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.366 0.090 0.025 0 0 0" name="wall1"/>
+  <xacro:wall pose="0.006 0.090 0.025 0 0 0" name="wall4"/>
+  <xacro:wall pose="0.186 0.090 0.025 0 0 0" name="wall5"/>
+  <xacro:wall pose="0.366 0.090 0.025 0 0 0" name="wall6"/>
 
   <!-- horizontal -->
-  <xacro:wall pose="0.450 0.006 0.025 0 0 1.57" name="wall1"/>
+  <xacro:wall pose="0.450 0.006 0.025 0 0 1.57" name="wall7"/>
 
-  <xacro:wall pose="0.450 -0.174 0.025 0 0 1.57" name="wall1"/>
+  <xacro:wall pose="0.450 -0.174 0.025 0 0 1.57" name="wall8"/>
 
-  <xacro:wall pose="0.450 -0.354 0.025 0 0 1.57" name="wall1"/>
+  <xacro:wall pose="0.450 -0.354 0.025 0 0 1.57" name="wall9"/>
 
   <!-- vertical -->
 
-  <xacro:wall pose="0.006 -0.450 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.186 -0.450 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.366 -0.450 0.025 0 0 0" name="wall1"/>
+  <xacro:wall pose="0.006 -0.450 0.025 0 0 0" name="wall10"/>
+  <xacro:wall pose="0.186 -0.450 0.025 0 0 0" name="wall11"/>
+  <xacro:wall pose="0.366 -0.450 0.025 0 0 0" name="wall12"/>
 
   <!-- plus alpha -->
-  <xacro:wall pose="0.186 -0.270 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.366 -0.090 0.025 0 0 0" name="wall1"/>
-  <xacro:wall pose="0.270 -0.174 0.025 0 0 1.57" name="wall1"/>
-  <xacro:wall pose="0.006 -0.090 0.025 0 0 0" name="wall1"/>
+  <xacro:wall pose="0.186 -0.270 0.025 0 0 0" name="wall13"/>
+  <xacro:wall pose="0.366 -0.090 0.025 0 0 0" name="wall14"/>
+  <xacro:wall pose="0.270 -0.174 0.025 0 0 1.57" name="wall15"/>
+  <xacro:wall pose="0.006 -0.090 0.025 0 0 0" name="wall16"/>
 </world>
 </sdf>
