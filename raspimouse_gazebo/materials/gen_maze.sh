@@ -2,4 +2,4 @@
 
 WORKINGDIR="$HOME/ros/src/raspimouse/raspimouse_sim/raspimouse_gazebo"
 
-rosrun xacro xacro.py $WORKINGDIR/materials/sample_maze.world.xacro > $WORKINGDIR/worlds/sample_maze.world
+rosrun xacro xacro --inorder -o $WORKINGDIR/worlds/sample_maze.world $WORKINGDIR/materials/sample_maze.world.xacro 

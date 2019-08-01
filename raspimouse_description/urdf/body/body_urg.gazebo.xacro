@@ -6,7 +6,10 @@
       <!-- <mu1 value="0.05" /> -->
       <!-- <mu2 value="0.05" /> -->
       <mu1>0.05</mu1>
-      <mu2>0.05</mu2>
+      <!-- <mu2>0.05</mu2> -->
+      <kp value="2000000" />
+      <kd value="100" />
+
     </gazebo>
   </xacro:macro>
 </robot>

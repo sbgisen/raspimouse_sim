@@ -47,3 +47,14 @@ raspimouse_on_gazebo:
         #max_velocity           : 0.5  # rad/s
         has_acceleration_limits: false
         #max_acceleration       : 1.5  # rad/s^2
+
+/gazebo_ros_control:
+  pid_gains:
+    left_wheel_joint:
+      p: 10.0
+      i: 0.0
+      d: 0.0
+    right_wheel_joint:
+      p: 10.0
+      i: 0.0
+      d: 0.0
