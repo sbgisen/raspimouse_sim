@@ -51,10 +51,10 @@ raspimouse_on_gazebo:
 /gazebo_ros_control:
   pid_gains:
     left_wheel_joint:
-      p: 10.0
+      p: 0.01
       i: 0.0
       d: 0.0
     right_wheel_joint:
-      p: 10.0
+      p: 0.01
       i: 0.0
       d: 0.0
