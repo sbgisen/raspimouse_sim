@@ -18,7 +18,7 @@
     <!-- convert sensor values -->
     <!-- <node name="dev_file_generator" pkg="raspimouse_control" type="gen_dev_file.sh" /> -->
     <node name="lightsensor_subscriber" pkg="raspimouse_control" type="virtual_led_sensors.py" />
-    <node name="stepper_cmd_vel_publisher" pkg="raspimouse_control" type="virtual_motors.py" />
+    <!-- <node name="stepper_cmd_vel_publisher" pkg="raspimouse_control" type="virtual_motors.py" /> -->
   </group>
 </launch>
 
